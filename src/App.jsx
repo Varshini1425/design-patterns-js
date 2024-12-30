@@ -1,11 +1,15 @@
 import React from "react";
+import UserContainer from "./presentation-container-pattern/components/UserContainer";
 
 function App() {
   return (
-    <div>
-      <h1>Welcome to My React App</h1>
-      <p>Learn React</p>
-    </div>
+    <>
+    <h1>React Design Patterns</h1>
+    {/* Presentation and container pattern */}
+
+    <UserContainer/>
+    
+    </>
   );
 }
 
