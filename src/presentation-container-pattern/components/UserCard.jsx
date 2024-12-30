@@ -1,5 +1,5 @@
 // Displays user information --- Only for the UI part
-
+import React from "react";
 const UserCard = ({ name, email, onEdit }) => {
     return (
       <div className="user-card" style={{ border: "1px solid #ddd", padding: "20px", margin: "20px" }}>
